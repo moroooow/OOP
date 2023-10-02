@@ -6,6 +6,6 @@ public class HorseMoveStrategy implements MoveStrategy {
         System.out.println("You are riding a horse");
         int speedMultiplier = 2;
         Movement action = new Movement();
-        action.action(fromX,fromY,toX,toY,speed*speedMultiplier);
+        action.showMovement(fromX,fromY,toX,toY,speed*speedMultiplier);
     }
 }
